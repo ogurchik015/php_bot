@@ -1,15 +1,15 @@
 ## Вариации отправки сообщений:
 - Отправка фото, вместе с текстом и кнопкой.
 ```PHP
-send_photo($token_bot, $chat_id, text, button,'фото.png');
+send_photo($token_bot, $chat_id, $text, $button,'фото.png');
 ```
 - Отправка кнопок с текстом.
 ```PHP
-send_btn($token_bot, $chat_id, text, button);
+send_btn($token_bot, $chat_id, $text, $button);
 ```
 - Отправка сообщения
 ```PHP
-send($token_bot, $chat_id, text);
+send($token_bot, $chat_id, $text);
 ```
 ## Вариации кнопок смена положения кнопок в файле (button.php):
 - Одна inline кнопка
